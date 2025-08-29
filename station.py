@@ -30,7 +30,7 @@ def set_korean_font():
         rc('font', family=font_manager.FontProperties(fname=font_path).get_name())
         plt.rcParams['axes.unicode_minus'] = False
     else:
-        st.warning("경고: 'Malgun Gothic' 또는 'AppleGothic' 폰트를 찾을 수 없습니다.")
+        st.warning("경고: 'NanumGothic' 또는 'AppleGothic' 폰트를 찾을 수 없습니다.")
         plt.rcParams['font.family'] = 'sans-serif'
         plt.rcParams['axes.unicode_minus'] = False
 
