@@ -19,7 +19,7 @@ st.title("🚇 지하철 경로 혼잡도 예측 시스템")
 def set_korean_font():
     font_path = None
     for font in font_manager.findSystemFonts(fontpaths=None, fontext='ttf'):
-        if 'Malgun Gothic' in font or 'malgun' in font.lower():
+        if 'NanumGothic' in font or 'malgun' in font.lower():
             font_path = font
             break
         if 'AppleGothic' in font:
